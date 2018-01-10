@@ -1,7 +1,7 @@
 ﻿@model CarOwnerListViewModel
 
 @{
-    ViewData["Title"] = "List Of Car Owners";
+    ViewData["Title"] = "All Car Owners";
 }
 
 <h1>
@@ -14,13 +14,13 @@
         @foreach (var carOwner in Model.CarOwners)
         {
 
-            <h2 style="color: purple;font-weight:bold;padding-top:15px;">@carOwner.FullName</h2>
+            <h2 style="color: black;text-transform:uppercase;padding-top:15px;">@carOwner.FullName</h2>
 
             // hier komt een tabel met alle cars van deze owner
 
             <table class="table">
                 <thead>
-                    <tr style="color:purple;font-weight:bold;">
+                    <tr style="color: black;text-transform:uppercase;">
                         <td>License Plate</td>
                         <td>Brand</td>
                         <td>Model</td>
