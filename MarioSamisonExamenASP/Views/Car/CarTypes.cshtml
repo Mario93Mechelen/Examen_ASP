@@ -1,0 +1,39 @@
+﻿@model CarTypeListViewModel
+
+@{
+    ViewData["Title"] = "List Of Car Types";
+}
+
+<h1>
+    List of Car Types!
+</h1>
+
+<div class="row">
+    <div class="col-md-12">
+
+        @foreach (var carType in Model.CarTypes)
+        {
+
+            <h2 style="color: purple;font-weight:bold;padding-top:15px;">@carType.Brand @carType.Model</h2>
+
+            // hier komt een tabel met alle cars van dit car type
+
+            <table class="table">
+                <thead>
+                    <tr style="color:purple;font-weight:bold;">
+                        <td>License Plate</td>
+                        <td>Owner</td>
+                        <td>Delete?</td>
+                    </tr>
+                </thead>
+
+
+            </table>
+
+
+        }
+    </div>
+</div>
+
+
+

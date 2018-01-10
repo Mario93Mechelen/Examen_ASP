@@ -1,0 +1,39 @@
+﻿@model CarOwnerListViewModel
+
+@{
+    ViewData["Title"] = "List Of Car Owners";
+}
+
+<h1>
+    List of Car Owners!
+</h1>
+
+<div class="row">
+    <div class="col-md-12">
+
+        @foreach (var carOwner in Model.CarOwners)
+        {
+
+            <h2 style="color: purple;font-weight:bold;padding-top:15px;">@carOwner.FullName</h2>
+
+            // hier komt een tabel met alle cars van deze owner
+
+            <table class="table">
+                <thead>
+                    <tr style="color:purple;font-weight:bold;">
+                        <td>License Plate</td>
+                        <td>Brand</td>
+                        <td>Model</td>
+                    </tr>
+                </thead>
+
+
+            </table>
+
+
+        }
+    </div>
+</div>
+
+
+

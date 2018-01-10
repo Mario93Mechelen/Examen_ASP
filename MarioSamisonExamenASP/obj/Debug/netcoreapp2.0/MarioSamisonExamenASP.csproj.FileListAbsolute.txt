@@ -1,0 +1,11 @@
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\bin\Debug\netcoreapp2.0\MarioSamisonExamenASP.deps.json
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\bin\Debug\netcoreapp2.0\MarioSamisonExamenASP.runtimeconfig.json
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\bin\Debug\netcoreapp2.0\MarioSamisonExamenASP.runtimeconfig.dev.json
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\bin\Debug\netcoreapp2.0\MarioSamisonExamenASP.dll
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\obj\Debug\netcoreapp2.0\MarioSamisonExamenASP.csprojResolveAssemblyReference.cache
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\obj\Debug\netcoreapp2.0\MarioSamisonExamenASP.csproj.CoreCompileInputs.cache
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\obj\Debug\netcoreapp2.0\MarioSamisonExamenASP.AssemblyInfoInputs.cache
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\obj\Debug\netcoreapp2.0\MarioSamisonExamenASP.AssemblyInfo.cs
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\bin\Debug\netcoreapp2.0\MarioSamisonExamenASP.pdb
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\obj\Debug\netcoreapp2.0\MarioSamisonExamenASP.dll
+C:\Users\Mario\source\repos\MarioSamisonExamenASP\MarioSamisonExamenASP\obj\Debug\netcoreapp2.0\MarioSamisonExamenASP.pdb

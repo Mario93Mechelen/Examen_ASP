@@ -1,0 +1,42 @@
+﻿@model CarEditDetailViewModel
+
+@{
+    ViewData["Title"] = "Detail " + Model.LicensePlate;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            <form asp-controller="Car" asp-action="Persist" method="post">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group">
+                    <label asp-for="LicensePlate">License Plate:</label>
+                    <input type="text" asp-for="LicensePlate" placeholder="License Plate" />
+                    <span asp-validation-for="LicensePlate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Color">Color:</label>
+                    <input type="text" asp-for="Color" placeholder="Color" />
+                    <span asp-validation-for="Color" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DateBought">Date of Purchase:</label>
+                    <input type="date" asp-for="DateBought" />
+                    <span asp-validation-for="DateBought" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CarTypeId">Car Type:</label>
+                    <select asp-for="CarTypeId" asp-items="Model.CarTypes"></select>
+                    <span asp-validation-for="CarType" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CarOwnerId">Car Owner:</label>
+                    <select asp-for="CarOwnerId" asp-items="Model.CarOwners" multiple="multiple"></select>
+                    <span asp-validation-for="CarOwner" class="text-danger"></span>
+                </div>
+                <input type="submit" />
+            </form>
+        </div>
+    </div>
+</div>
